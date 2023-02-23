@@ -17,15 +17,27 @@ const Home = () => {
     }
 
   return (
-    <div>
-        <h1><img src="./images/imgHome.png" alt="" /></h1>
-        <h2>Welcome trainer</h2> <br />
+    <div className='home_page'>
+        <div className="header_pag">
+            <div className='red_rect'></div>
+            <img className='image_header_p' src="./images/imgHome.png" alt="" />
+            <div className="black_rect"></div>
+            <div className="circle_m">
+              <div className="circle_men"></div>
+            </div>
+          </div>
+        <div className="home_letter">
+        <h2>Welcome trainer!!</h2> <br />
         <p>For start your adventure giveme your name</p>
 
         <form onSubmit={handleSubmit}>
-            <input type="text" id='tranier'/>
+        <div className="in_poke">
+           <input type="text" id='tranier'/>
             <button>let's do it</button>
+        </div>
+           
         </form>
+        </div>
     </div>
   )
 }

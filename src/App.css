@@ -33,7 +33,17 @@ input{
 button{
     border: none;
 }
-
+.home_letter{
+    margin: 2.5rem;
+}
+.home_page h2{
+    color: red;
+    font-size: 2rem;
+}
+.home_page p{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
 /* carta de los pokemon */
 .card_pokemon{
     display: flex;
