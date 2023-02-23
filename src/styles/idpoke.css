@@ -1,0 +1,135 @@
+.pokeid_container{
+    padding: 2.5rem;
+}
+.pokeid_header{
+    width: 100%;
+    height: 150px;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.id_conts{
+    background-color: whitesmoke;
+    padding: 2rem 0;
+}
+
+.info_poke_img{
+    width: 19%;
+    min-width: 200px;
+    position: absolute;
+    top: -60%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.description_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 1.5rem;
+    gap: 1rem;
+}
+#frame_cont{
+    display: flex;
+    justify-content: center;
+}
+.frame{
+    border: 1px solid rgb(108, 107, 107);
+    
+}
+
+.description_name{
+    display: flex;
+}
+.description_name hr{
+    width: 35%;
+}
+
+.description_media{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.description_type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+.type_info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.type_info ul, .list_moves ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.type_info div, .list_moves div{
+    margin-left: 1rem;
+    background-color: rgba(110, 110, 110, 0.603);
+    min-width: 110px;
+    color: whitesmoke;
+}
+
+.info_stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+}
+.header_stats{
+    display: flex;
+    margin: 0 2.5rem;
+}
+.header_stats img{
+    width: 40px;
+    transform: rotate(45deg);
+}
+
+.barr_stats{
+    width: 70%;
+    height: 15px;
+
+}
+.barr_stats li{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.movements{
+    margin-top: 2rem;
+}
+.header_move{
+    display: flex;
+    padding: 0 2.5rem;
+}
+.header_move hr{
+    width: 75%;
+}
+
+.list_moves{
+    width: 80%;
+    margin-top: 2rem;
+    height: 500px;
+    overflow-x: hidden;
+}
+
+.list_moves div{
+    border-radius: 5px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list_moves{
+    margin: auto;
+    padding-top: 2rem;
+}
